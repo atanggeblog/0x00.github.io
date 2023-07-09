@@ -22,7 +22,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Juno
-        uses: atanggeblog/0x00.github.io@main
+        uses: atanggeblog/0x00.github.io
         with:
           args: deploy
         env:
