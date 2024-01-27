@@ -2,7 +2,7 @@ name: Deploy to Juno
 
 on:
   push:
-    branches: [0x00.github.io]
+    branches: https://github.com/atanggeblog/0x00.github.io/blob/master/.github/workflows/deploy.yaml
 
 jobs:
   build:
